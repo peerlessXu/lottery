@@ -216,7 +216,7 @@
         }
         function RandomSome(arr,count=1,result=[]){
             if(arr.length<count){
-                return
+                return result
             }
             const thisResult = RandomByWeight(arr)
             result = [...result, thisResult]
